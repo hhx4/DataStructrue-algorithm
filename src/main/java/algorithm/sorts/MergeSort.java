@@ -1,10 +1,7 @@
 package algorithm.sorts;
 
 /**
- * @author hw
- * @program bos-parent
  * @description 归并
- * @create 2021-04-14 18:58
  **/
 public class MergeSort {
     public static void main(String[] args) {
@@ -23,9 +20,9 @@ public class MergeSort {
     }
     public void doSort(int[] nums, int left, int right) {
         if (left < right) {
-        int mid = left+(right-left) >>>1;
+        int mid = left+(right-left) / 2;
             doSort(nums,left,mid);
-            doSort(nums,mid,right);
+            doSort(nums,mid+1,right);
             merge(nums,left,mid,right);
         }
     }
