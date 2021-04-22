@@ -35,7 +35,7 @@ public class QuickSort {
            定义双指针用于交换前后数据并分组，从 i 这边开始向右移动，如果遇到大于基准值的值则与右边 j 位置交换，
            此时从 j 开始向左移动，当遇到比基准值小的与左边 i 位置交换，直到两个指针相遇代表遍历结束
          */
-        while (left<right){
+        while (left<=right){
             while(nums[left]<pivot){
                 left++;
             }
