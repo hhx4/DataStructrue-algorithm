@@ -28,6 +28,29 @@ public class MergeSort {
     }
 
     private void merge(int[] nums, int left, int mid, int right) {
+        int i = left;
+        int j = mid+1;
+        int len = right-left+1;
+        int[] temp = new int[len];
+        int k = 0;
+        //合并数组
+        while (i <= mid && j <= right) {
+            if (nums[i]<nums[j]) {
+                temp[k++] = nums[i++];
+            } else {
+                temp[k++] = nums[j++];
+            }
+        }
+        //如果左右子数组没有合并完成
+        while (i <= mid) {
+            temp[k++] = nums[i++];
+        }
+
+        while (j <= right) {
+            temp[k++] = nums[j++];
+        }
+
+        System.arraycopy(temp, 0, nums, left, len);
 
     }
 }

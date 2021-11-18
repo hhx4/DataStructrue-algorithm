@@ -20,8 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f3240fb-c610-4bec-81e6-3a0ea9a63f47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/numbers/NumSubarrayProductLessThanK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/numbers/PreSumAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/sorts/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/listNode/AddTwoLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/listNode/InterSectListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/listNode/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/listNode/RemoveLastKNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/listNode/dedtecCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/listNode/reorderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/listNode/reverseListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/numbers/LengthOfSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/numbers/TwoDimensionalArrayPrefixSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/sorts/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/sorts/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/sorts/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/sorts/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +51,7 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
-  <component name="JupyterTrust" id="3453de9c-17c2-458e-9c0a-bcefd5faf588" />
+  <component name="JupyterTrust" id="f97e5180-0d9f-46b0-93a0-509f764c6039" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -62,6 +72,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -70,7 +81,46 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.HeapSort">
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.sorts.HeapSort" />
+      <module name="DataStructrue-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthOfSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.swordToOffer.numbers.LengthOfSubString" />
+      <module name="DataStructrue-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.swordToOffer.numbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.sorts.MergeSort" />
+      <module name="DataStructrue-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinSubAddition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.swordToOffer.numbers.MinSubAddition" />
       <module name="DataStructrue-algorithm" />
@@ -84,8 +134,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.sorts.QuickSort" />
+      <module name="DataStructrue-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.LengthOfSubString" />
         <item itemvalue="Application.MinSubAddition" />
       </list>
     </recent_temporary>
@@ -102,6 +180,15 @@
       <workItem from="1636552573890" duration="1499000" />
       <workItem from="1636609696038" duration="290000" />
       <workItem from="1636623309944" duration="1097000" />
+      <workItem from="1636644106641" duration="1632000" />
+      <workItem from="1636710839109" duration="519000" />
+      <workItem from="1636713134029" duration="598000" />
+      <workItem from="1636794020287" duration="336000" />
+      <workItem from="1636794753012" duration="597000" />
+      <workItem from="1636813225775" duration="29000" />
+      <workItem from="1636896906660" duration="1418000" />
+      <workItem from="1636947346825" duration="22000" />
+      <workItem from="1637222832285" duration="13853000" />
     </task>
     <servers />
   </component>
@@ -129,42 +216,54 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="526" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816@0.0.1536.816" timestamp="1636465500727" />
-    <state width="1493" height="250" key="GridCell.Tab.0.bottom" timestamp="1636513385540">
+    <state width="721" height="200" key="GridCell.Tab.0.bottom" timestamp="1637255039850">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="250" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1636513385540" />
-    <state width="1493" height="250" key="GridCell.Tab.0.center" timestamp="1636513385540">
+    <state width="721" height="200" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1637255039850" />
+    <state width="721" height="200" key="GridCell.Tab.0.center" timestamp="1637255039850">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="250" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1636513385540" />
-    <state width="1493" height="250" key="GridCell.Tab.0.left" timestamp="1636513385540">
+    <state width="721" height="200" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1637255039850" />
+    <state width="721" height="200" key="GridCell.Tab.0.left" timestamp="1637255039850">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="250" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1636513385540" />
-    <state width="1493" height="250" key="GridCell.Tab.0.right" timestamp="1636513385540">
+    <state width="721" height="200" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1637255039850" />
+    <state width="721" height="200" key="GridCell.Tab.0.right" timestamp="1637255039850">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="250" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1636513385540" />
-    <state width="1493" height="250" key="GridCell.Tab.1.bottom" timestamp="1636513385541">
+    <state width="721" height="200" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1637255039850" />
+    <state width="1493" height="250" key="GridCell.Tab.1.bottom" timestamp="1636897695041">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="250" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1636513385541" />
-    <state width="1493" height="250" key="GridCell.Tab.1.center" timestamp="1636513385541">
+    <state width="1493" height="250" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1636897695041" />
+    <state width="1493" height="250" key="GridCell.Tab.1.center" timestamp="1636897695041">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="250" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1636513385541" />
-    <state width="1493" height="250" key="GridCell.Tab.1.left" timestamp="1636513385541">
+    <state width="1493" height="250" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1636897695041" />
+    <state width="1493" height="250" key="GridCell.Tab.1.left" timestamp="1636897695041">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="250" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1636513385541" />
-    <state width="1493" height="250" key="GridCell.Tab.1.right" timestamp="1636513385541">
+    <state width="1493" height="250" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1636897695041" />
+    <state width="1493" height="250" key="GridCell.Tab.1.right" timestamp="1636897695041">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="250" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1636513385541" />
+    <state width="1493" height="250" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1636897695041" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1636461501176">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1636461501176" />
+    <state x="206" y="84" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1636647817579">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="206" y="84" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.816@0.0.1536.816" timestamp="1636647817579" />
+    <state x="499" y="90" key="extract.method.dialog" timestamp="1637260804902">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="499" y="90" key="extract.method.dialog/0.0.1536.816@0.0.1536.816" timestamp="1637260804902" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1637248438087">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1637248438087" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
