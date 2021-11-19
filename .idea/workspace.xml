@@ -20,18 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f3240fb-c610-4bec-81e6-3a0ea9a63f47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/sorts/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/listNode/AddTwoLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/listNode/InterSectListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/listNode/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/listNode/RemoveLastKNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/listNode/dedtecCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/listNode/reorderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/listNode/reverseListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/numbers/LengthOfSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/numbers/TwoDimensionalArrayPrefixSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/sorts/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/sorts/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/sorts/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/sorts/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/string/CheckInclusion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/string/IsPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/swordToOffer/string/LengthOfLongestSubString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +42,7 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
-  <component name="JupyterTrust" id="f97e5180-0d9f-46b0-93a0-509f764c6039" />
+  <component name="JupyterTrust" id="2e5872a6-ea5b-469e-b192-9d16a7589d0c" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -81,13 +72,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
+  <component name="RunManager" selected="Application.IsPalindrome">
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.sorts.HeapSort" />
       <module name="DataStructrue-algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algorithm.sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.swordToOffer.string.IsPalindrome" />
+      <module name="DataStructrue-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.swordToOffer.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,19 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSubAddition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.swordToOffer.numbers.MinSubAddition" />
-      <module name="DataStructrue-algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm.swordToOffer.numbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.sorts.QuickSort" />
       <module name="DataStructrue-algorithm" />
@@ -147,24 +138,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsPalindrome" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.LengthOfSubString" />
-        <item itemvalue="Application.MinSubAddition" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +181,8 @@
       <workItem from="1636813225775" duration="29000" />
       <workItem from="1636896906660" duration="1418000" />
       <workItem from="1636947346825" duration="22000" />
-      <workItem from="1637222832285" duration="13853000" />
+      <workItem from="1637222832285" duration="14282000" />
+      <workItem from="1637322911256" duration="4755000" />
     </task>
     <servers />
   </component>
@@ -216,38 +210,38 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="526" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816@0.0.1536.816" timestamp="1636465500727" />
-    <state width="721" height="200" key="GridCell.Tab.0.bottom" timestamp="1637255039850">
+    <state width="1493" height="250" key="GridCell.Tab.0.bottom" timestamp="1637330720156">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="721" height="200" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1637255039850" />
-    <state width="721" height="200" key="GridCell.Tab.0.center" timestamp="1637255039850">
+    <state width="1493" height="250" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1637330720156" />
+    <state width="1493" height="250" key="GridCell.Tab.0.center" timestamp="1637330720156">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="721" height="200" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1637255039850" />
-    <state width="721" height="200" key="GridCell.Tab.0.left" timestamp="1637255039850">
+    <state width="1493" height="250" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1637330720156" />
+    <state width="1493" height="250" key="GridCell.Tab.0.left" timestamp="1637330720156">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="721" height="200" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1637255039850" />
-    <state width="721" height="200" key="GridCell.Tab.0.right" timestamp="1637255039850">
+    <state width="1493" height="250" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1637330720156" />
+    <state width="1493" height="250" key="GridCell.Tab.0.right" timestamp="1637330720156">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="721" height="200" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1637255039850" />
-    <state width="1493" height="250" key="GridCell.Tab.1.bottom" timestamp="1636897695041">
+    <state width="1493" height="250" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1637330720156" />
+    <state width="1493" height="250" key="GridCell.Tab.1.bottom" timestamp="1637330720156">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="250" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1636897695041" />
-    <state width="1493" height="250" key="GridCell.Tab.1.center" timestamp="1636897695041">
+    <state width="1493" height="250" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1637330720156" />
+    <state width="1493" height="250" key="GridCell.Tab.1.center" timestamp="1637330720156">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="250" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1636897695041" />
-    <state width="1493" height="250" key="GridCell.Tab.1.left" timestamp="1636897695041">
+    <state width="1493" height="250" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1637330720156" />
+    <state width="1493" height="250" key="GridCell.Tab.1.left" timestamp="1637330720156">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="250" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1636897695041" />
-    <state width="1493" height="250" key="GridCell.Tab.1.right" timestamp="1636897695041">
+    <state width="1493" height="250" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1637330720156" />
+    <state width="1493" height="250" key="GridCell.Tab.1.right" timestamp="1637330720156">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="250" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1636897695041" />
+    <state width="1493" height="250" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1637330720156" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1636461501176">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
